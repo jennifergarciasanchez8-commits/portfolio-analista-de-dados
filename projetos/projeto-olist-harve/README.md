@@ -1,35 +1,38 @@
 # Análise de Dados — Olist
 
-## 1. Sobre o projeto
+## Contexto
 
-Este projeto foi desenvolvido como parte da minha formação em Análise de Dados, com o objetivo de aplicar na prática conhecimentos de SQL, Python, Excel e Power BI em um cenário de negócio.
+Este projeto foi desenvolvido como trabalho final do curso de Analista de Dados da Harve, simulando meu primeiro desafio profissional como analista.
 
-A partir de uma base de dados de vendas do Olist, busquei entender o comportamento das vendas, identificar os clientes de maior valor, analisar a experiência de entrega e avaliação dos clientes e descobrir quais categorias de produtos possuem maior participação na receita.
+A proposta era imaginar que uma empresa havia me contratado para analisar seus dados e responder algumas perguntas importantes sobre o negócio.
 
-Além da construção das análises e dashboards, o projeto também envolveu etapas de exploração, tratamento e organização dos dados, validação de hipóteses e tomada de decisões durante o processo.
+## Desafio
 
-## 2. Objetivo
+A partir dos dados fornecidos, precisei investigar:
 
-O objetivo principal foi transformar os dados disponíveis em informações que pudessem ajudar na compreensão do negócio e apoiar possíveis decisões relacionadas a vendas, clientes, produtos e experiência de entrega.
+- O que está acontecendo com as vendas?
+- Quem são os melhores clientes?
+- Os problemas de entrega podem estar afetando a satisfação dos clientes?
+- Quais categorias de produtos mais contribuem para a receita?
 
-Durante o desenvolvimento, procurei não apenas criar gráficos, mas entender o que os dados estavam mostrando, investigar possíveis problemas e validar as hipóteses antes de chegar às conclusões.
+As respostas foram construídas a partir da análise dos dados e apresentadas no Power BI.
 
-## 3. Perguntas de negócio
+## Ferramentas
 
-Durante a análise, defini quatro perguntas principais para orientar o projeto:
+**SQL · Python · Pandas · Power BI · GitHub**
 
-### 1. O que está acontecendo com nossas vendas?
+## Estrutura
 
-Analisei a evolução do faturamento ao longo do tempo para identificar períodos de crescimento, oscilações e possíveis quedas nas vendas. Também observei o comportamento das categorias de produtos e dos estados dos clientes.
+O projeto foi organizado em três etapas principais:
 
-### 2. Quem são os nossos melhores clientes?
+- **SQL** — exploração e investigação dos dados.
+- **Python** — tratamento dos dados e criação dos arquivos CSV.
+- **Power BI** — modelagem, análise visual e apresentação dos resultados.
 
-Busquei identificar os clientes que representam maior valor em compras, utilizando o valor total gasto como principal critério de análise. A ideia foi entender quais clientes possuem maior contribuição para o faturamento e podem ser considerados importantes para estratégias de retenção.
+Cada etapa possui sua própria documentação dentro do projeto.
 
-### 3. Problemas na entrega estão prejudicando a satisfação e as vendas?
+## Resultado
 
-Analisei o tempo de entrega e sua relação com as avaliações dos clientes. O objetivo foi verificar se pedidos com maior tempo de entrega apresentavam também avaliações mais baixas.
+O resultado final é uma análise dos dados da Olist apresentada como uma entrega para a empresa, com uma **Visão Executiva** reunindo os principais resultados encontrados.
 
-### 4. Quais categorias de produtos mais sustentam a receita?
-
-Comparei as categorias de produtos considerando sua participação na receita, buscando identificar quais categorias possuem maior impacto no faturamento e quais apresentam menor participação.
+A documentação de cada etapa também registra algumas das dúvidas, problemas e decisões que surgiram durante o desenvolvimento.
